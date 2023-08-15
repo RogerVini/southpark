@@ -1,0 +1,114 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: hsl(108, 90%, 47%);
+    --cor-de-fundo: #00030C;
+    --botao-vermelho: hsl(41, 100%, 51%);
+    --botao-rosa: #F529D6;
+    --botão-efeito-cor: #1ed35d;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background-image: url("p12025079_b_h10_aa.jpg");
+    background-repeat: no-repeat;
+    margin-top: 1em;
+    text-align: center;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__botao{
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-align: center;
+    margin-bottom: 1em;
+    text-decoration: none;
+}
+.botao_secundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+
+}
+.titulo{
+    text-align: center;
+    color: var(--branco-principal);
+    margin: 1em 0 1em 0;
+}
+.container__botao-1{
+    background-color: var(--botao-vermelho);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-align: center; 
+    margin-bottom: 1em;
+    text-decoration: none;   
+}
+.container__caixa{
+    margin: 0 8em;
+}
+.container__secundario{
+    width: 90%;
+    border-radius: 10%;
+}
+.secundario{
+    margin: 1em;
+}
+.secundario__botao{
+    display: inline-block;
+    margin: 1em 5em;
+    background-color: var(--botao-azul)
+}
+.secundario__imagem{
+    width: 102%;
+    border-radius: 10%;
+}
+.container__descricao{
+    margin: center;
+    text-align: center;
+    padding: 1em;
+}
+.jogos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.Melhores-Jogos{
+    text-align: center;
+    font-size: 24px;
+}
+.The-Fractured-but-Whole{
+    margin: 0.5em 1em 0.5em 1em;
+    border-radius: 10%;
+}
+.The-Stick-of-Truth{
+    margin: 0.5em 1em 0.5em 3em;
+    border-radius: 10%;
+}
+.Rally{
+    border-radius: 10%;
+    margin: 0.5em 1em 0.5em 3em;
+}
+.lista__item{
+    margin: 0 1em 1em 2em;
+}
